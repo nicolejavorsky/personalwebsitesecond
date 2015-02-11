@@ -1,9 +1,8 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	text-align: left;
-	margin: 0 auto;
-	background-color: black;
-	max-width: 1280px;
+	margin: 0;
+	width: 1280px;
 }
 
 #pagewrap {
@@ -12,22 +11,29 @@ body {
 
 #logo img {
 	height: auto;
-	width: 100px;
+	width: 200px;
 }
 
 #menu {
 	margin: 0;
 	background-color: #CCFF99;
 	width: 1280px;
-	height: 100px;
+	height: 200px;
 }
 
 #menu li {
-	font-size: 25px;
+	font-size: 32px;
 	display: inline;
 	padding: 20px;
 	letter-spacing: 5px;
 	word-spacing: 15px;
+	width: 1280px;
+}
+
+#Menu ul {
+	float: left;
+	width: 100%;
+	height: auto;
 }
 
 a:link {
@@ -53,6 +59,7 @@ a:active {
 }
 
 section {
+	width: 1280px;
 	height: 800px;
 }
 
@@ -61,15 +68,20 @@ section {
 	color: black;
 	position: relative;
 	z-index: 10;
-	top: 100px;
-	left: 50px;
-	width: 600px;
+	top: 70px;
+	right: 100px;
+	width: 500px;
 	padding: 30px;
 	background-color: white;
+	border: 15px solid #CCFF99;
+	float: right;
 }
 
-.image {
-	width: 300px;
+#image1 img {
+	width: 600px;
 	height: auto;
-	float: center;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	float: left;
 }

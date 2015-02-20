@@ -4,6 +4,10 @@ body {
 	margin: 0;
 }
 
+#pagewrap {
+	min-width: 600px;
+}
+
 #logo img {
 	width: 80%;
 	max-width: 500px;

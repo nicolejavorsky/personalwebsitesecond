@@ -1,39 +1,35 @@
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	text-align: left;
 	margin: 0;
-	width: 1280px;
-}
-
-#pagewrap {
-	width: 1280px;
 }
 
 #logo img {
+	width: 80%;
+	max-width: 500px;
 	height: auto;
-	width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #menu {
 	margin: 0;
 	background-color: #CCFF99;
-	width: 1280px;
-	height: 200px;
+	text-align: center;
+	height: 50px;
 }
 
 #menu li {
-	font-size: 32px;
+	font-size: 28px;
 	display: inline;
-	padding: 20px;
-	letter-spacing: 5px;
-	word-spacing: 15px;
-	width: 1280px;
+	letter-spacing: 3px;
+	word-spacing: 10px;
 }
 
 #Menu ul {
-	float: left;
-	width: 100%;
-	height: auto;
+	vertical-align: middle;
+	min-width: 100%;
 }
 
 a:link {
@@ -53,35 +49,6 @@ a:active {
 	color: white;
 }
 
-#home {
-	background-image: url('paisley.png');
-	background-image-height: 800px;
-}
-
-section {
-	width: 1280px;
-	height: 800px;
-}
-
-.titlecontent {
-	font-size: 20px;
-	color: black;
-	position: relative;
-	z-index: 10;
-	top: 70px;
-	right: 100px;
-	width: 500px;
-	padding: 30px;
-	background-color: white;
-	border: 15px solid #CCFF99;
-	float: right;
-}
-
 #image1 img {
-	width: 600px;
-	height: auto;
-	position: relative;
-	top: 50px;
-	left: 50px;
-	float: left;
+	width: 100%;
 }

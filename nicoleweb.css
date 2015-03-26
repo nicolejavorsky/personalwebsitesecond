@@ -40,20 +40,21 @@ body {
 }
 
 a:link {
-    color: black;
+    color: gray;
     text-decoration: none
 }
 
 a:visited {
-	color: black;
+	color: gray;
 }
 
 a:hover {
+	color: black;
 	font-weight: bold;
 }
 
 a:active {
-	color: black;
+	color: gray;
 }
 
 #nicoleimg img {
@@ -66,7 +67,7 @@ a:active {
 
 .text1 {
 	width: 600px;
-	font-size: 18px;
+	font-size: 20px;
 	color: black;
 	position: relative;
 	left: 400px;

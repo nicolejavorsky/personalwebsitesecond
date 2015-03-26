@@ -1,27 +1,29 @@
 body {
 	font-family: 'PT Sans', sans-serif;
 	text-align: left;
-	margin: 0;
+	margin-right: 75px; 
+	margin-left: 75px;
+	background-image: url('paisley.png');
 }
 
 #pagewrap {
-	min-width: 600px;
+	width: 100%;
+	min-height: 900px;
+	background-color: white;
+	border-left: 15px solid black;
+	border-right: 15px solid black;
 }
 
 #logo img {
-	width: 80%;
-	max-width: 500px;
+	width: 450px;
 	height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #menu {
 	margin: 0;
-	background-color: #CCFF99;
 	text-align: center;
-	height: 50px;
+	height: 120px;
+	border-bottom: 15px dotted black;
 }
 
 #menu li {
@@ -33,7 +35,7 @@ body {
 
 #Menu ul {
 	vertical-align: middle;
-	min-width: 100%;
+	width: 100%;
 }
 
 a:link {
@@ -46,13 +48,28 @@ a:visited {
 }
 
 a:hover {
-	color: white;
+	font-weight: bold;
 }
 
 a:active {
-	color: white;
+	color: black;
 }
 
-#image1 img {
-	width: 100%;
+#nicoleimg img {
+	width: 300px;
+	height: auto;
+	position: relative;
+	left: 75px;
+	top: 150px;
+}
+
+.text1 {
+	width: 600px;
+	font-size: 18px;
+	color: black;
+	position: relative;
+	left: 400px;
+	bottom: 150px;
+	padding: 25px;
+	margin: 0;
 }

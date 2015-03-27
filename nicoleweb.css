@@ -30,6 +30,8 @@ body {
 	display: inline;
 	letter-spacing: 3px;
 	word-spacing: 10px;
+	position: relative;
+	right: 100px;
 }
 
 #Menu ul {
@@ -61,6 +63,13 @@ a:active {
 	position: relative;
 	left: 75px;
 	top: 35px;
+}
+
+
+.titletext {
+	font-size: 28px;
+	color: black;
+	margin:;
 }
 
 .text1 {
@@ -151,3 +160,4 @@ a:active {
 	left: 50px;
 	bottom: 20px;
 }
+

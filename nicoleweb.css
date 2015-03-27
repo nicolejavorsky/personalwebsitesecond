@@ -80,7 +80,7 @@ a:active {
 }
 
 .text2 {
-	width: 650px;
+	width: 900px;
 	text-align: justify;
 	font-size: 22px;
 	color: black;
@@ -88,6 +88,17 @@ a:active {
 	bottom: 220px;
 	left: 50px;
 	padding: 25px;
+	margin: 0;
+}
+
+.text3 {
+	width: 650px;
+	text-align: justify;
+	font-size: 22px;
+	color: black;
+	position: relative;
+	bottom: 220px;
+	left: 50px;
 	margin: 0;
 }
 
@@ -101,9 +112,9 @@ a:active {
 }
 
 .photolist img {
-	width: 260px;
+	width: 250px;
 	height: auto;
 	float: right;
 	position: relative;
-	bottom: 450px;
+	bottom: 400px;
 }

@@ -1,22 +1,19 @@
 body {
-/*	font-family: 'PT Sans', sans-serif;*/
-	font-family: 'Ubuntu Mono';
 	text-align: left;
-	margin-right: 75px; 
-	margin-left: 75px;
-	background-image: url('paisley.png');
+	background-image: url('concrete_seamless.png');
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 1px;
 }
 
-#pagewrap {
-	width: 100%;
-	min-height: 900px;
-	background-color: white;
-	border-left: 15px solid black;
-	border-right: 15px solid black;
+#introwrap {
+	width: auto;
+	height: 400px;
+	margin-right: 75px;
+	margin-left: 75px;
 }
 
 #logo img {
-	width: 450px;
+	width: 500px;
 	height: auto;
 }
 
@@ -24,10 +21,11 @@ body {
 	margin: 0;
 	text-align: center;
 	height: 120px;
-	border-bottom: 15px dotted black;
+	background-color: white;
 }
 
 #menu li {
+	font-family: 'Special Elite', cursive;
 	font-size: 28px;
 	display: inline;
 	letter-spacing: 3px;
@@ -58,20 +56,54 @@ a:active {
 }
 
 #nicoleimg img {
-	width: 300px;
+	width: 260px;
 	height: auto;
 	position: relative;
 	left: 75px;
-	top: 50px;
+	top: 35px;
 }
 
 .text1 {
-	width: 600px;
-	font-size: 20px;
+	width: 675px;
+	text-align: justify;
+	font-size: 22px;
 	color: black;
 	position: relative;
-	left: 400px;
-	bottom: 250px;
+	left: 375px;
+	bottom: 220px;
 	padding: 25px;
 	margin: 0;
+}
+
+.part2 {
+	width: 1020px;	
+}
+
+.text2 {
+	width: 650px;
+	text-align: justify;
+	font-size: 22px;
+	color: black;
+	position: relative;
+	bottom: 220px;
+	left: 50px;
+	padding: 25px;
+	margin: 0;
+}
+
+.text2 ul {
+	position: relative;
+	bottom: 25px;
+}
+
+.text2 li {
+	float: left;
+}
+
+.photolist img {
+	width: 260px;
+	height: auto;
+	float: right;
+	position: relative;
+	bottom: 450px;
 }

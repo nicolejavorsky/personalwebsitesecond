@@ -67,9 +67,13 @@ a:active {
 
 
 .titletext {
-	font-size: 28px;
-	color: black;
-	margin:;
+	font-size: 56px;
+	color: gray;
+	margin-right: 0;
+	font-weight: bold;
+	position: relative;
+	right: 75px;
+	text-align: center;
 }
 
 .text1 {

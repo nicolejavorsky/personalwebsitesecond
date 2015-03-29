@@ -50,7 +50,7 @@ body {
 	position: relative;
 	bottom: 0;
 	left: 0;
-	top: 150px;
+	top: 575px;
 	font-size: 16px;
 	padding: 25px;
 	text-align: center;
@@ -179,6 +179,16 @@ a:active {
 	font-weight: bold;
 	position: relative;
 	left: 100px;
+}
+
+.text6 {
+	text-align: justify;
+	font-size: 22px;
+	color: black;
+	margin: 0;
+	position: relative;
+	left: 50px;
+	bottom: 20px;
 }
 
 .photolist img {
